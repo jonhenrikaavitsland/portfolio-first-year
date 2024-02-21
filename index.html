@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is my portfolio based off my school work after finishing first year of frontend development education at Noroff Higher Vocational College.">
+  <title>Portfolio | Frontend Developer 1st Year</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <script type="module" src="./js/index.js"></script>
+  <script src="https://kit.fontawesome.com/a4285c5b9b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="flex">
+    <a href="/" class="logo">
+      <span class="logo-span">Jon Henrik</span>
+      Åvitsland
+    </a>
+    <div class="hamburger-menu">
+      <i class="fa-solid fa-bars fa-xl"></i>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" target="_self">About Me</a>
+        </li>
+        <li>
+          <a href="#" target="_self">Projects</a>
+        </li>
+        <li>
+          <a href="#" target="_self">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Hello, I’m a Frontend Developer Student</h1>
+      <p>Displaying my past school projects and skills learned til now</p>
+      <a href="#">View my work</a>
+    </section>
+    <div>
+      <img src="./assets/profile-pic.jpg" alt="the developer">
+      <p>My name is Jon Henrik Åvitsland and I am a Frontend Developer Student attending education at Noroff Higher Vocational College.</p>
+      <p>I am 39 years of age and currently residing in Oslo-Region of Norway.</p>
+    </div>
+    <section>
+      <h2>My core skills:</h2>
+      <div class="flex">
+        <section>
+          <h3>Html 5</h3>
+          <i class="fa-brands fa-html5 fa-2xl"></i>
+        </section>
+        <section>
+          <h3>css</h3>
+          <i class="fa-brands fa-css3-alt fa-2xl"></i>
+        </section>
+        <section>
+          <h3>JavaScript</h3>
+          <i class="fa-brands fa-square-js fa-2xl"></i>
+        </section>
+      </div>
+    </section>
+    <section>
+      <h2>Other relevant skills:</h2>
+      <div class="flex">
+        <section>
+          <h3>Figma</h3>
+          <i class="fa-brands fa-figma fa-2xl"></i>
+        </section>
+        <section>
+          <h3>Github</h3>
+          <i class="fa-brands fa-github fa-2xl"></i>
+        </section>
+        <section>
+          <h3>Hotjar</h3>
+          <i class="fa-brands fa-hotjar fa-2xl"></i>
+        </section>
+        <section>
+          <h3>Agile</h3>
+          <i class="fa-solid fa-arrows-split-up-and-left fa-2xl"></i>
+        </section>
+        <section>
+          <h3>Trello</h3>
+          <i class="fa-brands fa-trello fa-2xl"></i>
+        </section>
+        <section>
+          <h3>Kanban</h3>
+          <i class="fa-solid fa-square-kanban fa-2xl"></i>
+        </section>
+      </div>
+    </section>
+    <section>
+      <h2>Projects</h2>
+    </section>
+    <section class="contact-container">
+      <h2>Contact me:</h2>
+      <form action="#">
+        <div class="flex flex-col">
+          <label for="name">Your name:</label>
+          <input type="text" name="name" id="name" placeholder="Hi, what's your name?">
+        </div>
+        <div class="flex flex-col">
+          <label for="email">E-mail Address:</label>
+          <input type="text" name="email" id="email" placeholder="To what email do I respond?">
+        </div>
+        <div class="flex flex-col">
+          <label for="subject">Subject:</label>
+          <input type="text" name="subject" id="subject" placeholder="Your subject please">
+        </div>
+        <div class="flex flex-col">
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" placeholder="How may I help you?"></textarea>
+        </div>
+        <button type="input">Send</button>
+      </form>
+
+      <div>
+        <p>...or you can find me on social media:</p>
+        <div>
+          <i class="fa-brands fa-linkedin fa-2xl"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="flex">
+    <p>&copy; <span class="logo-span">Jon Henrik</span> Åvitsland</p>
+    <div>
+      <i class="fa-solid fa-plane-up fa-2xl"></i>
+    </div>
+  </footer>
+</body>
+</html>

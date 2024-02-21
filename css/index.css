@@ -1,0 +1,167 @@
+/* Table of contents::after
+
+1.  Custom Variables
+2.  Global Styles
+3.  Typography
+4.  Color
+5.  Flex / Grid
+6.  Layout
+7.  Positioning
+8.  padding
+9.  Margin
+10. Background
+11. @Media
+*/
+
+/* 
+1.  Custom Variables
+*/
+
+:root {
+  /* Colors */
+  --vibrant-blue: #111827;
+  --bright-vibrant-blue: #645EE4;
+  --white: #FFF;
+  --black: #000;
+
+  /* Font-Families */
+  --ff-lora: "Lora", serif;
+  --ff-merriweather: "Merriweather", serif;
+
+  /* Font-Sizes */
+  --s-16: 1rem;
+  --s-18: 1.125rem;
+  --s-20: 1.25rem;
+  --s-21: 1.3125rem;
+  --s-24: 1.5rem;
+  --s-30: 1.875rem;
+  --s-36: 2.25rem;
+  --s-60: 3.75rem;
+
+
+  /* Font-Weights */
+  --w-300: 300;
+  --w-400: 400;
+  --w-500: 500;
+  --w-600: 600;
+  --w-700: 700;
+  --w-900: 900;
+
+
+  /* Line-Heights */
+  --lh-1: 1
+  --lh-34: 34px;
+}
+
+
+/* 
+2.  Global Styles
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--vibrant-blue);
+  font-family: var(--ff-merriweather);
+  font-weight: var(--w-700);
+  font-size: var(--s-16);
+  line-height: var(--lh-1);
+  padding: 0;
+  margin: 0 auto;
+  color: var(--white);
+}
+
+
+/*
+3.  Typography
+*/
+
+.logo {
+  font-family: var(--ff-lora);
+  font-style: italic;
+  font-size: var(--s-20);
+}
+
+
+/* 
+4.  Color
+*/
+
+.logo-span {
+  color: var(--bright-vibrant-blue);
+}
+
+.fa-bars {
+  color: var(--white);
+}
+
+main i {
+  color: var(--bright-vibrant-blue);
+}
+
+
+/* 
+5.  Flex / Grid
+*/
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.logo {
+  flex: 1;
+}
+
+/* 
+6.  Layout
+*/
+
+nav {
+  display: none;
+}
+
+
+/* 
+7.  Positioning
+*/
+
+
+/* 
+8.  padding
+*/
+
+.hamburger-menu {
+  padding: 10px;
+}
+
+
+/* 
+9.  Margin
+*/
+
+
+/* 
+10. Background
+*/
+
+
+/* 
+11. @Media
+*/
