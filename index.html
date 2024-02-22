@@ -14,16 +14,20 @@
   <script src="https://kit.fontawesome.com/a4285c5b9b.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="overlay hidden"></div>
   <header class="flex">
-    <a href="/" class="logo">
+    <figure class="logo">
       <span class="logo-span">Jon Henrik</span>
       Åvitsland
-    </a>
+    </figure>
     <div class="hamburger-menu">
       <i class="fa-solid fa-bars fa-xl"></i>
     </div>
     <nav>
-      <ul>
+      <div class="close-btn">
+        <i class="fa-solid fa-xmark fa-xl"></i>
+      </div>
+      <ul class="flex flex-col">
         <li>
           <a href="#" target="_self">About Me</a>
         </li>
