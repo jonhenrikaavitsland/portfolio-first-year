@@ -205,6 +205,7 @@ nav ul {
 6.  Layout
 */
 
+.desktop-nav,
 .hidden,
 nav {
   display: none;
@@ -327,11 +328,9 @@ main {
 
 main {
   background-image: url("/assets/top-line-1.svg"), url("/assets/top-line-2.svg");
-  
   background-size: auto, auto;
   background-repeat: no-repeat, no-repeat;
-
-  background-position: center 150px, center 170px;
+  background-position: center 200px, center 220px;
 }
 
 
@@ -340,35 +339,71 @@ main {
 */
 
 @media (min-width: 800px) {
-  nav{
-    display: flex;
-    background-color: transparent;
-    position: static;
-    padding: 0;
-    height: min-content;
-    flex: 1;
-    justify-content: flex-end;
+
+  /* 3. Typography */
+
+  /* 4. Color */
+
+  header {
+    background-color: var(--vibrant-blue);
   }
 
-  .close-btn,
-  .hamburger-menu {
-    display: none;
+
+  /* 5. Flex / Grid */
+
+  .desktop-nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
   }
 
   nav ul {
     flex-direction: row;
   }
 
+  .desktop-nav ul {
+    gap: 40px;
+  }
+
+
+  /* 6. Layout */
+
+  .close-btn,
+  .hamburger-menu {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+
+  /* 7. Positioning */
+  header {
+    position: fixed;
+  }
+
+
+  /* 8. padding */
+
   header {
     padding: 30px 30px 15px 30px;
-    position: fixed;
-    width: 100%;
-    background-color: var(--vibrant-blue);
   }
 
   main {
     padding: 150px 0 0 0;
   }
+
+
+  /* 9. Margin */
+
+
+  /* 10. Background  */
+
+  main {
+    background-position: center 260px, center 280px;
+  }
+
 
 
 
