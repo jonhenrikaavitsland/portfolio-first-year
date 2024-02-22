@@ -51,7 +51,7 @@
 
 
   /* Line-Heights */
-  --lh-1: 1
+  --lh-1: 1;
   --lh-34: 34px;
 }
 
@@ -80,6 +80,20 @@ figure {
   margin: 0;
 }
 
+p,
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
   background-color: var(--vibrant-blue);
   font-family: var(--ff-merriweather);
@@ -104,10 +118,26 @@ main {
 3.  Typography
 */
 
+.introduction h1 {
+  text-align: center;
+}
+
+.cta {
+  text-transform: uppercase;
+}
+
 .logo {
-  font-family: var(--ff-lora);
   font-style: italic;
   font-size: var(--s-20);
+}
+
+.logo,
+.introduction h1 {
+  font-family: var(--ff-lora);
+}
+
+.introduction h1 {
+  font-size: var(--s-30);
 }
 
 
@@ -133,6 +163,7 @@ nav a:hover,
   transition: ease-in-out 500ms;
 }
 
+.cta,
 nav {
   background-color: var(--bright-vibrant-blue);
 }
@@ -140,6 +171,11 @@ nav {
 .overlay {
   background-color: var(--black);
   opacity: 70%;
+}
+
+.cta:hover {
+  background-color: var(--hover-dark);
+  transition: ease-in-out 500ms;
 }
 
 
@@ -159,6 +195,10 @@ nav ul,
 
 nav ul {
   gap: 30px;
+}
+
+.introduction {
+  align-items: center;
 }
 
 /* 
@@ -183,9 +223,21 @@ nav {
   width: min-content;
 }
 
+figure {
+  max-width: 75%;
+}
+
+.introduction h1 {
+  max-width: 350px;
+}
+
 .overlay {
   height: 100%;
   width: 100%;
+}
+
+.cta {
+  border-radius: 5px;
 }
 
 
@@ -237,12 +289,24 @@ nav a {
   padding: 10px 0;
 }
 
+.cta {
+  padding: 10px 20px;
+}
+
 header {
   padding: 20px 0 0 20px;
 }
 
 nav {
   padding: 20px 40px 0 10px;
+}
+
+main {
+  padding: 70px 20px 0 20px;
+}
+
+.introduction {
+  padding: 0 0 200px 0;
 }
 
 
@@ -252,10 +316,23 @@ nav {
 9.  Margin
 */
 
+.introduction p {
+  margin: 30px 0 20px 0;
+}
+
 
 /* 
 10. Background
 */
+
+main {
+  background-image: url("/assets/top-line-1.svg"), url("/assets/top-line-2.svg");
+  
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+
+  background-position: center 150px, center 170px;
+}
 
 
 /* 
@@ -290,7 +367,7 @@ nav {
   }
 
   main {
-    padding: 70px 0 0 0 ;
+    padding: 150px 0 0 0;
   }
 
 
