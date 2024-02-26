@@ -20,7 +20,7 @@
 :root {
   /* Colors */
   --vibrant-blue: #111827;
-  --bright-vibrant-blue: #645EE4;
+  --bright-vibrant-blue: #4F46E5;
   --hover-dark: #7973E7;
   --hover-light: #B3B0EB;
   --white: #FFF;
@@ -119,400 +119,71 @@ main {
 3.  Typography
 */
 
-.introduction {
-  text-align: center;
-}
-
-.other-skills-wrap h2,
-.other-skills-wrap h3,
-.core-skills-wrap h3,
-.core-skills-wrap h2,
-.cta {
-  text-transform: uppercase;
-}
-
-.logo {
-  font-style: italic;
-}
-
-.other-skills-wrap h2 {
-  font-size: var(--s-18);
-}
-
-.core-skills-wrap h2,
-.logo {
-  font-size: var(--s-20);
-}
-
-.other-skills-wrap h2,
-.other-skills-wrap h3,
-.core-skills-wrap h3,
-.core-skills-wrap h2,
-.logo,
-.introduction h1 {
-  font-family: var(--ff-lora);
-}
-
-
-.introduction h1 {
-  font-size: var(--s-30);
-}
-
-.bio-wrap div p {
-  letter-spacing: 0.96px;
-  line-height: var(--lh-24);
-}
-
 
 /* 
 4.  Color
 */
-
-.logo-span {
-  color: var(--bright-vibrant-blue);
-}
-
-.fa-bars {
-  color: var(--white);
-}
-
-main i {
-  color: var(--bright-vibrant-blue);
-}
-
-.desktop-nav a:hover,
-nav a:hover,
-.close-btn:hover {
-  color: var(--hover-light);
-  transition: ease-in-out 500ms;
-}
-
-.cta,
-nav {
-  background-color: var(--bright-vibrant-blue);
-}
-
-.overlay {
-  background-color: var(--black);
-  opacity: 70%;
-}
-
-.cta:hover {
-  background-color: var(--hover-dark);
-  transition: ease-in-out 500ms;
-}
 
 
 /* 
 5.  Flex / Grid
 */
 
-nav ul,
-.flex {
-  display: flex;
-}
-
-nav ul,
-.flex-col {
-  flex-direction: column;
-}
-
-.bio-wrap div {
-  gap: 10px;
-}
-
-.other-skills-wrap,
-.core-skills-wrap {
-  gap: 20px;
-}
-
-.other-skills-wrap div,
-.core-skills-wrap div,
-.bio-wrap,
-nav ul {
-  gap: 30px;
-}
-
-.bio-wrap {
-  justify-content: center;
-}
-
-.other-skills-wrap section,
-.core-skills-wrap section,
-.introduction {
-  align-items: center;
-}
-
-.other-skills-wrap div,
-.bio-wrap {
-  flex-wrap: wrap;
-}
-
-.other-skills-wrap section,
-.core-skills-wrap section {
-  display: grid;
-  grid-template-rows: min-content 50px;
-  justify-items: center;
-}
-
-.core-skills-wrap section img {
-  padding: 5px;
-  max-width: 45px;
-}
-
-
 
 /* 
 6.  Layout
 */
-
-.hidden,
-nav {
-  display: none;
-}
-
-.close-btn,
-.hamburger-menu {
-  cursor: pointer;
-}
-
-nav {
-  height: 100vh;
-}
-
-.close-btn {
-  width: min-content;
-}
-
-figure {
-  max-width: 75%;
-}
-
-.bio-wrap img {
-  max-width: 200px;
-  border: 10px solid var(--white);
-  border-radius: 32px;
-}
-
-.introduction h1 {
-  max-width: 350px;
-}
-
-.overlay {
-  height: 100%;
-  width: 100%;
-}
-
-.cta {
-  border-radius: 5px;
-}
-
 
 
 /* 
 7.  Positioning
 */
 
-header {
-  position: relative;
-}
-
-.overlay,
-nav,
-.hamburger-menu {
-  position: absolute;
-}
-
-.hamburger-menu {
-  right: 10px;
-  top: 10px;
-  z-index: 5;
-}
-
-nav {
-  top: 0;
-  right: 0;
-  z-index: 10;
-}
-
-.overlay {
-  z-index: 9;
-}
 
 /* 
 8.  padding
 */
-
-nav ul {
-  padding: 0 0 0 10px;
-}
-
-.core-skills-wrap,
-.bio-wrap {
-  padding: 0 0 50px 0;
-}
-
-.other-skills-wrap,
-.introduction {
-  padding: 0 0 250px 0;
-}
-
-.close-btn,
-.hamburger-menu {
-  padding: 10px;
-}
-
-nav a {
-  padding: 10px 0;
-}
-
-.cta {
-  padding: 10px 20px;
-}
-
-header {
-  padding: 20px 0 0 20px;
-}
-
-nav {
-  padding: 20px 40px 0 10px;
-}
-
-main {
-  padding: 70px 20px 0 20px;
-}
 
 
 /* 
 9.  Margin
 */
 
-.introduction p {
-  margin: 40px 0 20px 0;
-}
-
 
 /* 
 10. Background
 */
-
-main {
-  background-image: url("/assets/top-line-1.svg"), url("/assets/top-line-2.svg"), url("/assets/top-line-1.svg"), url("/assets/top-line-3.svg");
-  background-size: auto, auto, auto, auto;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: center 200px, center 220px, center 1240px, center 1300px;
-}
 
 
 /* 
 11. @Media
 */
 
-@media (min-width: 600px) {
-  .bio-wrap {
-    flex-wrap: nowrap;
-  }
-
-  .bio-wrap div {
-    max-width: 400px;
-    gap: 20px;
-  }
-
-  .bio-wrap div p {
-    letter-spacing: 0.96px;
-    line-height: var(--lh-34);
-  }
-}
-
 
 @media (min-width: 800px) {
 
   /* 3. Typography */
 
+
   /* 4. Color */
-
-  header {
-    background-color: var(--vibrant-blue);
-  }
-
-  nav {
-    background-color: transparent;
-  }
 
 
   /* 5. Flex / Grid */
 
-  nav {
-    display: inline-flex;
-  }
-  
-  nav {
-    flex: 1;
-  }
-
-  nav {
-    justify-content: flex-end;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-
-
 
   /* 6. Layout */
 
-  .close-btn,
-  .hamburger-menu {
-    display: none;
-  }
-
-  header {
-    width: 100%;
-    max-width: 1200px;
-  }
-
-  nav {
-    height: min-content;
-  }
-
 
   /* 7. Positioning */
-  header {
-    position: fixed;
-  }
-
-  nav {
-    position: sticky;
-  }
 
 
   /* 8. padding */
-
-  nav {
-    padding: 0;
-  }
-
-  header {
-    padding: 30px 30px 15px 30px;
-  }
-
-  main {
-    padding: 150px 30px 0 30px;
-  }
 
 
   /* 9. Margin */
 
 
   /* 10. Background  */
-
-  main {
-    background-position: center 260px, center 280px;
-  }
-
-
 
 
 }
