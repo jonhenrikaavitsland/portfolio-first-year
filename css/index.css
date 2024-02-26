@@ -253,7 +253,6 @@ nav ul {
 6.  Layout
 */
 
-.desktop-nav,
 .hidden,
 nav {
   display: none;
@@ -422,18 +421,30 @@ main {
     background-color: var(--vibrant-blue);
   }
 
+  nav {
+    background-color: transparent;
+  }
+
 
   /* 5. Flex / Grid */
 
-  .desktop-nav {
-    display: flex;
+  nav {
+    display: inline-flex;
+  }
+  
+  nav {
     flex: 1;
+  }
+
+  nav {
     justify-content: flex-end;
   }
 
-  .desktop-nav ul {
-    gap: 40px;
+  nav ul {
+    flex-direction: row;
   }
+
+
 
 
   /* 6. Layout */
@@ -445,6 +456,11 @@ main {
 
   header {
     width: 100%;
+    max-width: 1200px;
+  }
+
+  nav {
+    height: min-content;
   }
 
 
@@ -453,8 +469,16 @@ main {
     position: fixed;
   }
 
+  nav {
+    position: sticky;
+  }
+
 
   /* 8. padding */
+
+  nav {
+    padding: 0;
+  }
 
   header {
     padding: 30px 30px 15px 30px;
