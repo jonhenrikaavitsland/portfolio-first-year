@@ -123,6 +123,8 @@ main {
   text-align: center;
 }
 
+.other-skills-wrap h2,
+.other-skills-wrap h3,
 .core-skills-wrap h3,
 .core-skills-wrap h2,
 .cta {
@@ -133,11 +135,17 @@ main {
   font-style: italic;
 }
 
+.other-skills-wrap h2 {
+  font-size: var(--s-18);
+}
+
 .core-skills-wrap h2,
 .logo {
   font-size: var(--s-20);
 }
 
+.other-skills-wrap h2,
+.other-skills-wrap h3,
 .core-skills-wrap h3,
 .core-skills-wrap h2,
 .logo,
@@ -213,10 +221,12 @@ nav ul,
   gap: 10px;
 }
 
+.other-skills-wrap,
 .core-skills-wrap {
   gap: 20px;
 }
 
+.other-skills-wrap div,
 .core-skills-wrap div,
 .bio-wrap,
 nav ul {
@@ -227,15 +237,18 @@ nav ul {
   justify-content: center;
 }
 
+.other-skills-wrap section,
 .core-skills-wrap section,
 .introduction {
   align-items: center;
 }
 
+.other-skills-wrap div,
 .bio-wrap {
   flex-wrap: wrap;
 }
 
+.other-skills-wrap section,
 .core-skills-wrap section {
   display: grid;
   grid-template-rows: min-content 50px;
@@ -339,6 +352,7 @@ nav ul {
   padding: 0 0 50px 0;
 }
 
+.other-skills-wrap,
 .introduction {
   padding: 0 0 250px 0;
 }
@@ -383,10 +397,10 @@ main {
 */
 
 main {
-  background-image: url("/assets/top-line-1.svg"), url("/assets/top-line-2.svg");
-  background-size: auto, auto;
-  background-repeat: no-repeat, no-repeat;
-  background-position: center 200px, center 220px;
+  background-image: url("/assets/top-line-1.svg"), url("/assets/top-line-2.svg"), url("/assets/top-line-1.svg"), url("/assets/top-line-3.svg");
+  background-size: auto, auto, auto, auto;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center 200px, center 220px, center 1240px, center 1300px;
 }
 
 
