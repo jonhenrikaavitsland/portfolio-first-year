@@ -20,6 +20,7 @@
 :root {
   /* Colors */
   --vibrant-blue: #111827;
+  --brighter-vibrant-blue: #B3B0EB;
   --bright-vibrant-blue: #4F46E5;
   --hover-dark: #7973E7;
   --hover-light: #B3B0EB;
@@ -118,8 +119,15 @@ main {
 /*
 3.  Typography
 */
+footer,
+.logo {
+  font-family: var(--ff-lora);
+  font-style: italic;
+}
 
-
+.logo {
+  font-size: var(--s-21);
+}
 
 
 /* 
@@ -127,7 +135,7 @@ main {
 */
 
 .logo-span {
-  color: var(--bright-vibrant-blue);
+  color: var(--brighter-vibrant-blue);
 }
 
 nav {
@@ -152,8 +160,13 @@ nav {
 
 .close-btn,
 .hamburger-menu {
-  justify-content: center;
   align-items: center;
+}
+
+.close-btn,
+.hamburger-menu,
+footer {
+  justify-content: center;
 }
 
 nav ul {
@@ -213,8 +226,8 @@ nav,
 }
 
 .hamburger-menu {
-  top: 5px;
-  right: 5px;
+  top: 10px;
+  right: 10px;
 }
 
 nav {
