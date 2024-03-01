@@ -305,6 +305,10 @@ main,
   padding: 0 0 40px 0;
 }
 
+nav {
+  padding: 0 0 50px 0;
+}
+
 .cta {
   padding: 10px 20px;
 }
@@ -321,9 +325,6 @@ main {
   padding: 40px 20px 50px 20px;
 }
 
-nav {
-  padding: 0 0 50px 0;
-}
 
 /* 
 9.  Margin
