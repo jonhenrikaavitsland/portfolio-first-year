@@ -255,10 +255,6 @@ main,
   display: none;
 }
 
-.btn {
-  cursor: pointer;
-}
-
 .dot,
 .btn {
   width: 40px;
