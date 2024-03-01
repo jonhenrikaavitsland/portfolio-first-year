@@ -13,42 +13,220 @@
   <script type="module" src="./js/index.js"></script>
   <script src="https://kit.fontawesome.com/a4285c5b9b.js" crossorigin="anonymous"></script>
 </head>
-<body>
-  <div class="overlay hidden"></div>
+<body> 
   <header class="flex">
     <figure class="logo">
-      <span class="logo-span">Jon Henrik</span>
-      Åvitsland
+      <h1>Jon Henrik Åvitsland</h1>
+      <p>Welcome to my Portfolio</p>
     </figure>
-    <div class="hamburger-menu flex">
-      <i class="fa-solid fa-bars fa-xl"></i>
-    </div>
-    <nav>
-      <div class="close-btn flex">
-        <i class="fa-solid fa-xmark fa-xl"></i>
-      </div>
-      <ul class="flex flex-col">
+    <div class="contact-socials">
+      <h2>Contact & Socials:</h2>
+      <ul>
         <li>
-          <a href="./about/">About Me</a>
+          <div class="btn">
+            <i class="fa-solid fa-at"></i>
+          </div>
         </li>
         <li>
-          <a href="./projects/">Projects</a>
+          <div class="dot"></div>
         </li>
         <li>
-          <a href="#">Contact Me</a>
+          <div class="btn">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </li>
+        <li>
+          <div class="dot"></div>
+        </li>
+        <li>
+          <div class="btn">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
         </li>
       </ul>
-    </nav>
+    </div>
   </header>
   <main>
-    <section class="introduction flex flex-col">
-      <h1>Hello, I’m a Frontend Developer Student</h1>
+    <nav class="introduction flex flex-col">
+      <h2>Hello, I’m a Frontend Developer Student</h2>
       <p>Displaying my past school projects and skills learned til now</p>
       <a href="#" class="cta">View my work</a>
+    </nav>
+    <div class="bio-wrap flex">
+      <div>
+        <img src="./assets/profile-pic.jpg" alt="the developer">
+        <div class="flex flex-col">
+          <p>My name is Jon Henrik Åvitsland and I am a Frontend Developer Student attending education at Noroff Higher Vocational College.</p>
+          <p>I am 39 years of age and currently residing in the Oslo-Region of Norway.</p>
+        </div>
+      </div>
+      <section class="core-skills-wrap flex flex-col">
+        <h3>My core skills:</h3>
+        <div class="flex">
+          <ul>
+            <li>
+              <div>
+                <h4>Html</h4>
+                <div class="icon">
+                  <img src="./assets/html.svg" alt="html 5">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>css</h4>
+                <div class="icon">
+                  <img src="./assets/css-3.svg" alt="css">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>JavaScript</h4>
+                <div class="icon">
+                  <img src="./assets/logo-javascript.svg" alt="javascript">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="other-skills-wrap flex flex-col">
+        <h3>Other relevant skills:</h3>
+        <ul>
+          <li>
+            <div>
+              <h4>Figma</h4>
+              <div class="icon">
+                <i class="fa-brands fa-figma fa-2xl"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>Github</h4>
+              <div class="icon">
+                <i class="fa-brands fa-github fa-2xl"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>Hotjar</h4>
+              <div class="icon">
+                <i class="fa-brands fa-hotjar fa-2xl"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>Agile</h4>
+              <div class="icon">
+                <i class="fa-solid fa-arrows-split-up-and-left fa-2xl"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>Trello</h4>
+              <div class="icon">
+                <i class="fa-brands fa-trello fa-2xl"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>Kanban</h4>
+              <div class="icon">
+                <i class="fa-solid fa-square-kanban fa-2xl"></i>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section> 
+    </div>
+    <section>
+      <h3>My Projects:</h3>
+      <ul>
+        <li>
+          <div>
+            <section>
+              <h4>Cross Course Project</h4>
+            </section>
+            <div>
+              <section>
+                <h5>Game Hub - The Universe of Games</h5>
+                <p>This is a project that I have been working on through out the first year of my studies and it has been constantly updated with new knowlegde to become what it is today.</p>
+              </section>
+              <img src="./assets/gamehub-screenshot.jpg" alt="gamehub">
+            </div>
+            <a href="https://game-hub-cms.netlify.app/" target="_blank">view live site</a>
+            <a href="https://github.com/jonhenrikaavitsland/game-hub-headless" target="_blank">view code</a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <section>
+              <h4>Semester Project 1</h4>
+            </section>
+            <div>
+              <section>
+                <h5>My Community Museum</h5>
+                <p>The brief was to design and create a website for a new science museum that would be opening in my local area soon.</p>
+              </section>
+              <img src="./assets/my-science-museum.jpg" alt="my community science museum">
+            </div>
+            <a href="https://my-community-science-museum.netlify.app/" target="_blank">view live site</a>
+            <a href="https://github.com/jonhenrikaavitsland/community-science-museum" target="_blank">view code</a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <section>
+              <h4>Project Exam 1</h4>
+            </section>
+            <div>
+              <section>
+                <h5>The Zookeeper's Journal</h5>
+                <p>The brief was to design and build a blog page for any theme we wanted and to meet certain criteria. My approach utilized AI to create the blog posts and images.</p>
+              </section>
+              <img src="./assets/zookeepers-journal.jpg" alt="the zookeepers journal">
+            </div>
+            <a href="https://zookeepers-journal.netlify.app/" target="_blank">view live site</a>
+            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-jonhenrikaavitsland" target="_blank">view code</a>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
   <footer class="flex">
-    <p>&copy; 2024 <span class="logo-span">Jon Henrik</span> Åvitsland</p>
+    <div>
+      <h2>Contact & Socials:</h2>
+      <ul>
+        <li>
+          <div class="btn">
+            <i class="fa-solid fa-at"></i>
+          </div>
+        </li>
+        <li>
+          <div class="dot"></div>
+        </li>
+        <li>
+          <div class="btn">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </li>
+        <li>
+          <div class="dot"></div>
+        </li>
+        <li>
+          <div class="btn">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <p>&copy; 2024 Jon Henrik Åvitsland</p>
   </footer>
 </body>
 </html>
