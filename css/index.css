@@ -121,25 +121,40 @@ main {
 3.  Typography
 */
 
+.introduction,
 .contact-socials h2 {
   text-align: center;
 }
 
+.cta,
 .contact-socials h2 {
   text-transform: uppercase;
 }
 
+.introduction h2,
 .contact-socials,
 .logo {
   font-family: var(--ff-lora);
+}
+
+.btn {
+  font-size: var(--s-20);
 }
 
 .logo h1 {
   font-size: var(--s-24);
 }
 
+.introduction h2 {
+  font-size: var(--s-30);
+}
+
 .logo p {
   font-weight: var(--w-600);
+}
+
+.introduction h2 {
+  line-height: var(--lh-150);
 }
 
 .logo h1 {
@@ -156,6 +171,24 @@ main {
   background-color: var(--light-blue);
 }
 
+.cta {
+  background-color: var(--light-orange);
+}
+
+.cta:hover {
+  background-color: var(--lighter-orange);
+  border-color: var(--light-orange);
+  transition: 500ms;
+}
+
+.cta,
+.introduction h2 {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cta {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 /* 
 5.  Flex / Grid
@@ -174,12 +207,17 @@ main {
   justify-content: center;
 }
 
+main,
 .btn {
   align-items: center;
 }
 
 .logo {
   flex: 1;
+}
+
+.introduction {
+  gap: 20px;
 }
 
 .contact-socials ul {
@@ -205,6 +243,15 @@ main {
   height: 40px;
 }
 
+.introduction {
+  max-width: 340px;
+}
+
+.cta {
+  border: 3px solid var(--lighter-orange);
+  border-radius: 10px;
+}
+
 
 /* 
 7.  Positioning
@@ -215,14 +262,29 @@ main {
 8.  padding
 */
 
+.cta {
+  padding: 10px 20px;
+}
+
 header {
   padding: 20px 20px 10px 20px;
+}
+
+main {
+  padding: 40px 20px 50px 20px;
+}
+
+nav {
+  padding: 0 0 50px 0;
 }
 
 /* 
 9.  Margin
 */
 
+.introduction p {
+  margin: 10px 0;
+}
 
 /* 
 10. Background
@@ -253,12 +315,17 @@ main {
 
   /* 3. Typography */
 
+  .introduction p,
+  .logo p {
+    font-size: var(--s-21);
+  }
+
   .logo h1 {
     font-size: var(--s-36);
   }
 
-  .logo p {
-    font-size: var(--s-21);
+  .introduction h2 {
+    font-size: var(--s-60);
   }
 
   /* 4. Color */
@@ -271,6 +338,10 @@ main {
   }
 
   /* 6. Layout */
+  
+  .introduction {
+    max-width: 640px;
+  }
 
 
   /* 7. Positioning */
@@ -282,8 +353,15 @@ main {
     padding: 30px 30px 15px 30px;
   }
 
+  main {
+    padding: 90px 30px;
+  }
+
   /* 9. Margin */
 
+  .introduction p {
+    margin: 10px 0 30px 0;
+  }
 
   /* 10. Background  */
 
