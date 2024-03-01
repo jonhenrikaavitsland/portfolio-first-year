@@ -77,6 +77,10 @@ figure {
   margin: 0;
 }
 
+ul li {
+  list-style: none;
+}
+
 p,
 h1,
 h2,
@@ -117,7 +121,15 @@ main {
 3.  Typography
 */
 
+.contact-socials h2 {
+  text-align: center;
+}
 
+.contact-socials h2 {
+  text-transform: uppercase;
+}
+
+.contact-socials,
 .logo {
   font-family: var(--ff-lora);
 }
@@ -153,8 +165,25 @@ main {
   display: flex;
 }
 
+.contact-socials,
 .flex-col {
   flex-direction: column;
+}
+
+.btn {
+  justify-content: center;
+}
+
+.btn {
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+}
+
+.contact-socials ul {
+  gap: 30px;
 }
 
 
@@ -164,6 +193,16 @@ main {
 
 .contact-socials {
   display: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.dot,
+.btn {
+  width: 40px;
+  height: 40px;
 }
 
 
@@ -189,11 +228,19 @@ header {
 10. Background
 */
 
+/* Photo by Sharon Pittaway on Unsplash */
+/* https://unsplash.com/photos/water-dropping-on-light-bulb-N7FtpkC_P7o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash */
 main {
   background: linear-gradient(0deg, rgba(217, 228, 255, 0.85) 0%, rgba(217, 228, 255, 0.85) 100%), url("/assets/background-img.jpg"), lightgray 50%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.dot {
+  background-image: url("/assets/ellipse-11.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -206,12 +253,22 @@ main {
 
   /* 3. Typography */
 
+  .logo h1 {
+    font-size: var(--s-36);
+  }
+
+  .logo p {
+    font-size: var(--s-21);
+  }
 
   /* 4. Color */
 
 
   /* 5. Flex / Grid */
 
+  .contact-socials {
+    display: flex;
+  }
 
   /* 6. Layout */
 
@@ -221,6 +278,9 @@ main {
 
   /* 8. padding */
 
+  header {
+    padding: 30px 30px 15px 30px;
+  }
 
   /* 9. Margin */
 
