@@ -183,19 +183,18 @@ main {
   background-color: var(--light-blue);
 }
 
-.bio-wrap,
 .cta {
   background-color: var(--light-orange);
+}
+
+.bio-wrap {
+  background-color: #FAAF9085
 }
 
 .cta:hover {
   background-color: var(--lighter-orange);
   border-color: var(--light-orange);
   transition: 500ms;
-}
-
-.bio-wrap {
-  opacity: 60%;
 }
 
 .cta,
@@ -379,7 +378,7 @@ main {
 */
 
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
 
   /* 3. Typography */
 
