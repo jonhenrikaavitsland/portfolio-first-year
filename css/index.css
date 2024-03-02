@@ -414,18 +414,12 @@ footer > div,
 7.  Positioning
 */
 
-footer,
-.card div {
+footer {
   position: relative;
 }
 
-.jump,
-.overlay {
+.jump {
   position: absolute;
-}
-
-.overlay {
-  bottom: 0;
 }
 
 .jump {
@@ -584,8 +578,8 @@ main {
 
   /* 6. Layout */
 
-  .card {
-    height: 600px;
+  .overlay {
+    height: 170px;
   }
 
   .bio-wrap div :nth-child(2) {
