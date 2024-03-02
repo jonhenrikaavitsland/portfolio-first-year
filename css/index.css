@@ -122,18 +122,21 @@ main {
 3.  Typography
 */
 
+.other-skills-wrap,
 .core-skills-wrap,
 .introduction,
 .contact-socials h2 {
   text-align: center;
 }
 
+.other-skills-wrap,
 .core-skills-wrap,
 .cta,
 .contact-socials h2 {
   text-transform: uppercase;
 }
 
+.other-skills-wrap,
 .core-skills-wrap,
 .introduction h2,
 .contact-socials,
@@ -141,6 +144,7 @@ main {
   font-family: var(--ff-lora);
 }
 
+.other-skills-wrap h3,
 .btn {
   font-size: var(--s-20);
 }
@@ -197,6 +201,8 @@ main {
   transition: 500ms;
 }
 
+.core-skills-wrap h3,
+.other-skills-wrap h3,
 .cta,
 .introduction h2 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -225,15 +231,23 @@ main {
   flex-direction: column;
 }
 
+.other-skills-wrap ul,
+.other-skills-wrap .icon,
 .core-skills-wrap ul,
 .btn {
   justify-content: center;
 }
 
+.other-skills-wrap .icon,
 .bio-wrap div,
 main,
 .btn {
   align-items: center;
+}
+
+.core-skills-wrap ul,
+.other-skills-wrap ul {
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -244,6 +258,8 @@ main,
   gap: 10px;
 }
 
+.other-skills-wrap ul,
+.other-skills-wrap,
 .core-skills-wrap,
 .core-skills-wrap ul,
 .introduction {
@@ -265,6 +281,7 @@ main,
   display: none;
 }
 
+.icon img,
 .dot,
 .btn {
   width: 40px;
@@ -386,6 +403,10 @@ main {
   .introduction p,
   .logo p {
     font-size: var(--s-21);
+  }
+
+  .other-skills-wrap h3 {
+    font-size: var(--s-24);
   }
 
   .core-skills-wrap h3 {
