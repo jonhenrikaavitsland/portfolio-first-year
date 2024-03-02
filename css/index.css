@@ -75,6 +75,7 @@ a {
 ul,
 figure {
   margin: 0;
+  padding: 0;
 }
 
 ul li {
@@ -121,16 +122,19 @@ main {
 3.  Typography
 */
 
+.core-skills-wrap,
 .introduction,
 .contact-socials h2 {
   text-align: center;
 }
 
+.core-skills-wrap,
 .cta,
 .contact-socials h2 {
   text-transform: uppercase;
 }
 
+.core-skills-wrap,
 .introduction h2,
 .contact-socials,
 .logo {
@@ -141,6 +145,7 @@ main {
   font-size: var(--s-20);
 }
 
+.core-skills-wrap h3,
 .logo h1 {
   font-size: var(--s-24);
 }
@@ -153,7 +158,10 @@ main {
   font-weight: var(--w-600);
 }
 
-.introduction h2 {
+main h2,
+main h3,
+main h4,
+main h5 {
   line-height: var(--lh-150);
 }
 
@@ -218,6 +226,7 @@ main {
   flex-direction: column;
 }
 
+.core-skills-wrap ul,
 .btn {
   justify-content: center;
 }
@@ -236,6 +245,8 @@ main,
   gap: 10px;
 }
 
+.core-skills-wrap,
+.core-skills-wrap ul,
 .introduction {
   gap: 20px;
 }
@@ -259,6 +270,11 @@ main,
 .btn {
   width: 40px;
   height: 40px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
 }
 
 .bio-wrap {
@@ -311,6 +327,10 @@ nav {
 
 .cta {
   padding: 10px 20px;
+}
+
+.icon {
+  padding: 5px;
 }
 
 .bio-wrap {
@@ -367,6 +387,10 @@ main {
   .introduction p,
   .logo p {
     font-size: var(--s-21);
+  }
+
+  .core-skills-wrap h3 {
+    font-size: var(--s-30);
   }
 
   .logo h1 {
