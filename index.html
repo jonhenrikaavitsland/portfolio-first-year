@@ -155,90 +155,97 @@
         </ul>
       </section> 
     </div>
-    <a name="my-work">
-      <section>
-        <h3>My Projects:</h3>
-        <ul>
-          <li>
+    <section class="projects flex flex-col" id="my-work">
+      <h3>My Projects:</h3>
+      <ul class="flex flex-col">
+        <li>
+          <div class="card flex flex-col">
+            <section class="card-heading">
+              <h4>Cross Course Project</h4>
+            </section>
             <div>
-              <section>
-                <h4>Cross Course Project</h4>
+              <img src="./assets/gamehub-screenshot.jpg" alt="gamehub">
+              <section class="overlay flex flex-col">
+                <h5>Game Hub - The Universe of Games</h5>
+                <p>This is a project that I have been working on through-out the first year of my studies.</p>
               </section>
-              <div>
-                <section>
-                  <h5>Game Hub - The Universe of Games</h5>
-                  <p>This is a project that I have been working on through out the first year of my studies and it has been constantly updated with new knowlegde to become what it is today.</p>
-                </section>
-                <img src="./assets/gamehub-screenshot.jpg" alt="gamehub">
-              </div>
-              <a href="https://game-hub-cms.netlify.app/" target="_blank">view live site</a>
-              <a href="https://github.com/jonhenrikaavitsland/game-hub-headless" target="_blank">view code</a>
             </div>
-          </li>
-          <li>
+            <div class="flex flex-col card-btn-wrap">
+              <a href="https://game-hub-cms.netlify.app/" target="_blank" class="cta">view live site</a>
+              <a href="https://github.com/jonhenrikaavitsland/game-hub-headless" target="_blank" class="cta">view code</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card flex flex-col">
+            <section class="card-heading">
+              <h4>Semester Project 1</h4>
+            </section>
             <div>
-              <section>
-                <h4>Semester Project 1</h4>
+              <img src="./assets/my-science-museum.jpg" alt="my community science museum">
+              <section class="overlay flex flex-col">
+                <h5>My Community Museum</h5>
+                <p>The brief was to design and create a website for a new science museum that would be opening in my local area soon.</p>
               </section>
-              <div>
-                <section>
-                  <h5>My Community Museum</h5>
-                  <p>The brief was to design and create a website for a new science museum that would be opening in my local area soon.</p>
-                </section>
-                <img src="./assets/my-science-museum.jpg" alt="my community science museum">
-              </div>
-              <a href="https://my-community-science-museum.netlify.app/" target="_blank">view live site</a>
-              <a href="https://github.com/jonhenrikaavitsland/community-science-museum" target="_blank">view code</a>
             </div>
-          </li>
-          <li>
-            <div>
-              <section>
-                <h4>Project Exam 1</h4>
+            <div class="flex flex-col card-btn-wrap">
+              <a href="https://my-community-science-museum.netlify.app/" target="_blank" class="cta">view live site</a>
+              <a href="https://github.com/jonhenrikaavitsland/community-science-museum" target="_blank" class="cta">view code</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card flex flex-col">
+            <section class="card-heading">
+              <h4>Project Exam 1</h4>
+            </section>
+            <div class="img-wrap">
+              <img src="./assets/zookeepers-journal.jpg" alt="the zookeepers journal">
+              <section class="overlay flex flex-col">
+                <h5>The Zookeeper's Journal</h5>
+                <p>The brief was to design and build a blog page for any theme we wanted and to meet certain criteria. My approach utilized AI to create the blog posts and images.</p>
               </section>
-              <div>
-                <section>
-                  <h5>The Zookeeper's Journal</h5>
-                  <p>The brief was to design and build a blog page for any theme we wanted and to meet certain criteria. My approach utilized AI to create the blog posts and images.</p>
-                </section>
-                <img src="./assets/zookeepers-journal.jpg" alt="the zookeepers journal">
-              </div>
-              <a href="https://zookeepers-journal.netlify.app/" target="_blank">view live site</a>
-              <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-jonhenrikaavitsland" target="_blank">view code</a>
             </div>
-          </li>
-        </ul>
-      </section>
-    </a>
+            <div class="flex flex-col card-btn-wrap">
+              <a href="https://zookeepers-journal.netlify.app/" target="_blank" class="cta">view live site</a>
+              <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-jonhenrikaavitsland" target="_blank" class="cta">view code</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
   </main>
-  <footer class="flex">
-    <div>
+  <footer class="flex flex-col">
+    <div class="flex flex-col">
       <h2>Contact & Socials:</h2>
-      <ul>
+      <ul class="flex">
         <li>
-          <div class="btn">
-            <i class="fa-solid fa-at"></i>
-          </div>
+          <a href="mailto:post@aavitsland.no" target="_blank" class="btn flex">
+            <i class="fa-solid fa-at fa-2xl"></i>
+          </a>
         </li>
         <li>
           <div class="dot"></div>
         </li>
         <li>
-          <div class="btn">
-            <i class="fa-brands fa-github"></i>
-          </div>
+          <a href="https://github.com/jonhenrikaavitsland" target="_blank" class="btn flex">
+            <i class="fa-brands fa-github fa-2xl"></i>
+          </a>
         </li>
         <li>
           <div class="dot"></div>
         </li>
         <li>
-          <div class="btn">
-            <i class="fa-brands fa-linkedin"></i>
-          </div>
+          <a href="https://www.linkedin.com/in/jon-henrik-aavitsland-abaa872b7/" target="_blank" class="btn flex">
+            <i class="fa-brands fa-linkedin fa-2xl"></i>
+          </a>
         </li>
       </ul>
     </div>
     <p>&copy; 2024 Jon Henrik Åvitsland</p>
+    <a href="#" class="jump flex">
+      <i class="fa-solid fa-jet-fighter-up fa-xl"></i>
+    </a>
   </footer>
 </body>
 </html>
