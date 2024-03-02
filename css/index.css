@@ -314,6 +314,7 @@ main,
 }
 
 
+.contact-socials,
 footer > div,
 .overlay,
 .bio-wrap div :nth-child(2) {
@@ -332,8 +333,7 @@ footer > div,
 
 .card-btn-wrap,
 .bio-wrap,
-.bio-wrap > div,
-.contact-socials ul {
+.bio-wrap > div {
   gap: 30px;
 }
 
